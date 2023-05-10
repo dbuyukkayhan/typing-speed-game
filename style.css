@@ -11,7 +11,7 @@
 .nav-bar {
     width: 100%;
     height: 60px;
-    background-color: aquamarine;
+    background-color: rgb(100, 252, 201);
     display: flex;
     justify-content: center;
     align-items: center;
