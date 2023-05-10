@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="nav-content">
+            <ul>
+                <li><a href="#">Against Time</a></li>
+                <li><a href="#">Chill Mode</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="body-content">
+            <div class="words-wrapper">
+                <div class="words"></div>
+            </div>
+            <div class="type-area">
+                <input id="typed-text" type="text" placeholder="Type...">
+                <button id="restart-button">1:00</button>
+            </div>
+
+        </div>
+        <div class="results-wrapper">
+            <div class="word-per-minute result">
+                <span class="result-text">WPM</span>
+                <span class="result1 results">
+                    <div class="loader loader1"></div>
+                </span>
+            </div>
+            <div class="true-word result">
+                <span class="result-text">True Words</span>
+                <span class="result2 results">
+                    <div class="loader loader2"></div>
+                </span>
+            </div>
+            <div class="false-word result">
+                <span class="result-text">False Words</span>
+                <span class="result3 results">
+                    <div class="loader loader3"></div>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="paragraphs.js" type="module"></script>
+</body>
+
+</html>
